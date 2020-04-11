@@ -1,13 +1,9 @@
 
-public class Pelota {
-	private int ID;
-	private String Modelo;
-	private String Color;
+public class Pelota extends Menu {
+	
 	
 	public Pelota() {
-		this.ID=0;
-		this.Modelo="";
-		this.Color="";
+		super();
 	}
 	
 	public Pelota(int id, String modelo, String Color) {

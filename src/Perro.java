@@ -1,13 +1,9 @@
 
-public class Perro {
-	private String nombre;
-	private String Raza;
-	private int Tamano;
+public class Perro extends Menu {
+	
 	
 	public Perro() {
-		this.nombre	=	"";
-		this.Raza	=	"";
-		this.Tamano	=	0;
+		super();
 	}
 	
 	public Perro(String nombre, String Raza, int Tamaño) {
